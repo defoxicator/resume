@@ -20,17 +20,33 @@
                 font-size: 10px;
             }
 
+            h6 {
+                font-weight: bold;
+            }
+
             .name {
                 letter-spacing: 18px;
+            }
+
+            .photo {
+                width: 100px;
+                height: 100px;
             }
             </style>
     </head>
     <body>
-        <div class="container text-center pt-1">
-            <h1 class="name">ALBERT <strong>ŁYSENKO</strong></h1>
-        </div>
-        <div class="container text-center">
-            <h5 class="text-muted">Software Developer</h2>
+        <div class="row">
+            <div class="col-10 my-auto">
+                <div class="container text-center pt-1">
+                    <h1 class="name">ALBERT <strong>ŁYSENKO</strong></h1>
+                </div>
+                <div class="container text-center">
+                    <h5 class="text-muted">Software Developer</h2>
+                </div>
+            </div>
+            <div class="col">
+                <img class="photo mt-1 rounded-circle" src="fotografia.jpg" alt="profile picture">
+            </div>
         </div>
         <hr>
         <div class="container-fluid">
@@ -40,7 +56,7 @@
                 </div>
                 <div class="col text-end">
                     <ul class="list-unstyled">
-                        <li>+48 603 231 610</li>
+                        <li>+48 603231610</li>
                         <li>alblysenko@gmail.com</li>
                         <li>Gdańsk, Poland</li>
                     </ul>
@@ -145,17 +161,17 @@
                         </div>
                     </div>
                     <div class="row">
-                        <h6>Programming Languages</h6>
+                        <h6>Programming Language</h6>
                         <ul class="list-inline">
                             <li class="list-inline-item">Python</li>
-                            <li class="list-inline-item">HTML</li>
-                            <li class="list-inline-item">CSS</li>
                         </ul>
                     </div>
                     <div class="row">
                         <h6>Frameworks & Miscellaneous</h6>
                         <ul class="list-inline">
                             <li class="list-inline-item">Django</li>
+                            <li class="list-inline-item">HTML</li>
+                            <li class="list-inline-item">CSS</li>
                             <li class="list-inline-item">Bootstrap</li>
                             <li class="list-inline-item">Git</li>
                             <li class="list-inline-item">SQL</li>
